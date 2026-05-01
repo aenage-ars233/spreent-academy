@@ -1,0 +1,1 @@
+var r=document.querySelector(".form__form"),t=new Pristine(r,{classTo:"form__label",errorTextParent:"form__label",errorTextClass:"form__error-text",errorClass:"form__label--error"});r.addEventListener("submit",e=>{e.preventDefault(),t.validate()&&r.submit()});
